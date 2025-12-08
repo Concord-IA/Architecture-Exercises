@@ -1,0 +1,13 @@
+[project]
+name = "uno-rl-challenge"
+version = "0.1.0"
+description = "Uno RL Challenge - Build a 2-player Uno game and teach an AI to play using Reinforcement Learning"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0",
+    "matplotlib>=3.3.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
